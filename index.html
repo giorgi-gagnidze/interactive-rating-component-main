@@ -20,20 +20,25 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <!-- Rating state start -->
-
-    How did we do? Please let us know how we did with your support request. All
-    feedback is appreciated to help us improve our offering! 1 2 3 4 5 Submit
-
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    You selected
-    <!-- Add rating here -->
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!
-
-    <!-- Thank you state end -->
+    <div class="main-container">
+      <div class="internal-container">
+        <img src="./images/icon-star.svg" alt="star icon" class="star-icon" />
+        <div class="article-container">
+          <h1 class="main-article__heading">How did we do?</h1>
+          <p class="main-article__text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="raiting-container">
+          <button class="raiting-button">1</button>
+          <button class="raiting-button">2</button>
+          <button class="raiting-button">3</button>
+          <button class="raiting-button">4</button>
+          <button class="raiting-button">5</button>
+        </div>
+        <button class="submit-button">Submit</button>
+      </div>
+    </div>
   </body>
 </html>
