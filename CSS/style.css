@@ -1,0 +1,35 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+
+  /* Primary color */
+
+  --orange: hsl(25, 97%, 53%);
+
+  /* Neutral colors */
+
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(217, 12%, 63%);
+  --medium-gray: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+
+  /* Font */
+
+  --primary-font: "Overpass";
+}
+
+/* Main styles */
+
+body {
+  background-color: var(--very-dark-blue);
+  font-family: var(--primary-font);
+  color: var(--light-gray);
+}
