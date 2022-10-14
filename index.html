@@ -20,7 +20,9 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <div class="main-container">
+    <!-- Rating card -->
+
+    <div id="main" class="main-container">
       <div class="internal-container">
         <img src="./images/icon-star.svg" alt="star icon" class="star-icon" />
         <div class="article-container">
@@ -30,15 +32,32 @@
             feedback is appreciated to help us improve our offering!
           </p>
         </div>
-        <div class="raiting-container">
-          <button class="raiting-button">1</button>
-          <button class="raiting-button">2</button>
-          <button class="raiting-button">3</button>
-          <button class="raiting-button">4</button>
-          <button class="raiting-button">5</button>
+        <div class="rating-container">
+          <button class="rating-button" value="1" id="1">1</button>
+          <button class="rating-button" value="2">2</button>
+          <button class="rating-button" value="3">3</button>
+          <button class="rating-button" value="4">4</button>
+          <button class="rating-button" value="5">5</button>
         </div>
-        <button class="submit-button">Submit</button>
+        <p id="value"></p>
+        <button class="submit-button" onclick="changeCard()">Submit</button>
       </div>
+    </div>
+    <script src="./JS/script.js"></script>
+
+    <!-- Thanks card -->
+    <div id="second" class="main-container__second">
+      <img
+        src="./images/illustration-thank-you.svg"
+        alt="smartphone and credit card ilustration"
+        class="second-ilustration"
+      />
+      <p class="selected-text">You selected <span id="number"> </span> of 5</p>
+      <h2 class="thanks-text">Thank you!</h2>
+      <p class="second-article-text">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
     </div>
   </body>
 </html>
