@@ -28,6 +28,8 @@ This page is made with HTML, CSS and JS. I don't use and framework or preprocess
 - Solution URL: https://github.com/siduki/interactive-rating-component-main
 - Live Site URL: https://siduki.github.io/interactive-rating-component-main/
 
+![Alt text](./image-qr-code.png)
+
 ## My process
 
 ### Built with
