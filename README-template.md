@@ -46,7 +46,7 @@ On thi page, I manipulate first time with DOM, take button value on click and wr
 ### Useful resources
 
 - [Get value on button click](https://stackoverflow.com/questions/63199551/how-to-get-the-values-of-buttons-with-eventlistener) - This resource helped me understand, how eventListener works, how to get button value on click and also write it in another element.
-- [Manipulate with css display property]([https://www.example.com](https://stackoverflow.com/questions/65858304/how-do-i-use-the-css-display-property-on-clicking-a-button)) - This resource helped me to manipulate with css display property, disable one element and show another to its place.
+- [Manipulate with css display property]([https://www.example.com](https://stackoverflow.com/questions/65858304/how-do-i-use-the-css-display-property-on-clicking-a-button) - This resource helped me to manipulate with css display property, disable one element and show another to its place.
 
 ## Author
 
